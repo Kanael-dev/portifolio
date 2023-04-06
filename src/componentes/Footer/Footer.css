@@ -1,0 +1,74 @@
+.footer{
+    height: 55vh;
+}
+.containerFooter{
+    height: 30vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(137, 39, 182, 0.17);
+}
+.callAction{
+    position: relative;
+    top: 35%;
+    background: #b41073;
+    width: 75%;
+    height: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.meChama{
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.meuBanner{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.meuBanner img{
+    height: auto;
+    width: auto;
+}
+.footerPrincipal{
+    height: 25vh;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.footerPrincipal h3{
+    padding: 10px;
+}
+
+@media (max-width: 600px){
+    .callAction{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+        width: 90%;
+    }
+    .meuBanner{
+        width: 100%;
+    }
+    .meuBanner img{
+        
+        height: auto;
+        width: 340px;
+    }
+}

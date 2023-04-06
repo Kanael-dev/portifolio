@@ -1,0 +1,30 @@
+.menu-inicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+}
+.menu-inicio h4{
+    color: #083aa5;
+}
+a{
+    text-decoration: none;
+    color: #4d4b4b;
+}
+a:hover{
+    color: #083aa5;
+}
+li{
+    list-style: none;
+}
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+@media (max-width: 600px){
+   .menu-inicio{
+    display: none;
+   }
+}

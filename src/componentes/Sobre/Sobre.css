@@ -1,0 +1,45 @@
+.divisaoSobre{
+    height: 50vh;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fundoSobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.fundoSobre h2{
+    font-size: 50px;
+    background-clip: text; -webkit-background-clip: text; color: transparent; background-image: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+    margin: 5px;
+}
+.fundoSobre h4{
+    color: #808080;
+    margin: 5px;
+}
+.fundoSobre p{
+    width: 50%;
+    text-align: center;
+    margin: 40px;
+}
+.redesSociais p{
+    margin: 5px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+    .fundoSobre p{
+        width: 90%;
+    }
+}

@@ -1,0 +1,63 @@
+.projetosContainer{
+    height: 60vh;
+    background: rgba(137, 39, 182, 0.17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.projetosContainer h3{
+    font-size: 30px;
+    background-clip: text; -webkit-background-clip: text; color: transparent; background-image: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+}
+.cardPai{
+    display: flex;
+}
+.card{
+    background: #fff;
+    border-radius: 20px;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+}
+.card:hover{
+    position: relative;
+    transition: 2s;
+    top: -1%;
+}
+.text-skill{
+    font-size: 30px;
+    background-clip: text; -webkit-background-clip: text; color: transparent; background-image: linear-gradient(90deg, #3030EB, #7928BF, #D21F89);
+}
+.card p{
+    font-size: 20px;
+    color: #757373;
+}
+
+@media (max-width: 600px) {
+    .projetosContainer{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .cardPai{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        padding: 2em;
+        margin: 1em;
+    }
+    .text-skill{
+        font-size: 25px;
+    }
+    .card p{
+        font-size: 16px;
+        color: #757373;
+    }
+}
